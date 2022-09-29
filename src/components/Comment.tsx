@@ -9,7 +9,7 @@ interface CommentProps {
 }
 
 // It is possible to send functions from other components as props
-// In this case, deleteComment is a function from Comment.jsx
+// In this case, deleteComment is a function from Post.jsx
 export function Comment({ content, onDeleteComment }:CommentProps) {
   const [likeCount, setLikeCount] = useState(0);
 
